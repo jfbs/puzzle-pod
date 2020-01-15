@@ -14,11 +14,10 @@ for i in alphabet:
         for m in alphabet:
           combs.append((i,j,k,l,m))
 
-ct = len(combs)
 keys = '\n'.join(''.join(tup) for tup in combs)
-newct = '{:,}'.format(ct) 
+ct = '{:,}'.format(len(combs))
 
 f = open("keys.txt", "w")
-f.write("Possible keys: " + newct + '\n')
+f.write("Possible keys: " + ct + '\n')
 f.write(keys)
 f.close()
