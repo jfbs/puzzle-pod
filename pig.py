@@ -18,6 +18,6 @@ keys = '\n'.join(''.join(tup) for tup in combs)
 ct = '{:,}'.format(len(combs))
 
 f = open("keys.txt", "w")
-f.write("Possible keys: " + ct + '\n')
+# .write("Possible keys: " + ct + '\n')
 f.write(keys)
 f.close()
