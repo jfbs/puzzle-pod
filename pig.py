@@ -1,6 +1,7 @@
 #!/usr/bin/python
-# five rows labeled each with a-z characters
-# with a center column that creates key
+# five rows labeled each including a-z characters
+# with a corresponding column that creates the keycode
+# note: total of 26^5 combinations
 
 import string
 
